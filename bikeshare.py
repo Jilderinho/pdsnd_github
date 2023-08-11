@@ -150,18 +150,18 @@ def time_stats(df):
 
     # TO DO: display the most common month
     popular_month = df['month'].mode()[0]
-    occurrences_month = df['month'].value_counts().max()
-    print("Most popular month:", ca.month_name[popular_month],", with", occurrences_month, "occurrences.")
+    occ_month = df['month'].value_counts().max()
+    print("Most popular month:", ca.month_name[popular_month],", with", occ_month, "occurrences.")
 
     # TO DO: display the most common day of week
     popular_day_of_week = df['day_of_week'].mode()[0]
-    occurrences_day_of_week = df['day_of_week'].value_counts().max()
-    print("Most popular day of week:", ca.day_name[popular_day_of_week],", with", occurrences_day_of_week, "occurrences.")
+    occ_day_of_week = df['day_of_week'].value_counts().max()
+    print("Most popular day of week:", ca.day_name[popular_day_of_week],", with", occ_day_of_week, "occurrences.")
 
     # TO DO: display the most common start hour
     popular_hour = df['hour'].mode()[0]
-    occurrences_hour  = df['hour'].value_counts().max()
-    print("Most popular hour:", popular_hour,", with", occurrences_hour, "occurrences.")
+    occ_hour  = df['hour'].value_counts().max()
+    print("Most popular hour:", popular_hour,", with", occ_hour, "occurrences.")
 
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
