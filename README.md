@@ -13,5 +13,5 @@ In this project, a Python program is run that lets the user input the city and d
 Three files are used to calculate the statistics: washington.csv, chicago.csv and new_york_city.csv
 
 ### Credits
-Most used source is https://stackoverflow.com and got helped a lot by Udacity GPT as well.
+Most used source is https://stackoverflow.com and got helped a lot by Udacity GPT and Richard Kalehoff as well.
 
