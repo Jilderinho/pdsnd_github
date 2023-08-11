@@ -4,13 +4,13 @@
 Project was created on August 3rd, 2023 and README.md file was created on August 11th, 2023.
 
 ### Project Title
-Replace the Project Title
+Bikeshare project
 
 ### Description
-Describe what your project is about and what it does
+In this project, a Python program is run that lets the user input the city and dates. It returns descriptive statistics about bike usage, such as trip duration, most common station, etc.
 
 ### Files used
-Include the files used
+Three files are used to calculate the statistics: washington.csv, chicago.csv and new_york_city.csv
 
 ### Credits
 It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
