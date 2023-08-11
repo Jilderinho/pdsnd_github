@@ -7,7 +7,7 @@ Created on Thu Jul 27 13:42:41 2023
 
 import time
 import pandas as pd
-import numpy as np
+# import numpy as np (currently unused)
 import calendar as ca
 
 CITY_DATA = { 'chicago': 'chicago.csv',
